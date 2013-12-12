@@ -1,0 +1,7 @@
+<% provide(:title, "Edit user") %>
+
+<h1>Update your profile</h1>
+<%= render partial: 'form', locals: { 
+  submit_text: "Save changes",
+  show_gravatar: true,
+  confirmation_text: "Confirm Password" } %>
